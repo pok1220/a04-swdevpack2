@@ -1,0 +1,28 @@
+div.vaccine_card{
+    width: 300px;
+    height: 500px;
+    background: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding-top: 10px;
+}
+
+div.vaccine_cardimg{
+    width: 100%;
+    height: 40%;
+    position: relative;
+    object-fit: "cover";
+}
+
+div.vaccine_cardtext{
+    padding: 10px;
+    height: 30%;
+    color: black;
+    text-align: center;
+}
+.vaccine_name{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom:10px ;
+    text-align: center;
+}
